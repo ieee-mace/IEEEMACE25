@@ -1,10 +1,13 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import Hero from "./Pages/Hero";
+import About from "./Pages/About";
+import WhyIEEE from "./Pages/WhyIEEE";
 
 export default function Home() {
   return (
     <>
-    <h1 className="text-5xl">Welcome</h1>
+      <Hero />
+      <About />
+      <WhyIEEE />
     </>
   );
 }
