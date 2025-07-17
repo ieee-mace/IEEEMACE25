@@ -6,10 +6,11 @@ const Navbar = () => {
       {/* Logo */}
       <div className="flex items-center space-x-2">
         <img
-          src="/logo.png" // Replace with your actual logo path
-          alt="35 Years MACE"
-          className="h-10"
+          src="/assets/Logo.png"
+          alt="MACE 35 Logo"
+          className="h-12"
         />
+
       </div>
 
       {/* Navigation Links */}
