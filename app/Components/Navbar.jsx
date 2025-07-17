@@ -1,5 +1,8 @@
 import React from "react";
 
+const navLinkClass =
+  "font-[ClashDisplay] font-light px-4 py-1 rounded-full border border-transparent hover:border-white transition";
+
 const Navbar = () => {
   return (
     <nav className="bg-black text-white px-6 py-4 flex items-center justify-between shadow-md">
@@ -15,14 +18,13 @@ const Navbar = () => {
 
       {/* Navigation Links */}
       <div className="flex space-x-6 text-sm font-light tracking-wide">
-        <button className="border border-white rounded-full px-4 py-1 hover:bg-white hover:text-black transition">
-          Home
-        </button>
-        <a href="#about" className="hover:text-orange-400 font-[ClashDisplay] font-light" style={{ fontFamily: 'ClashDisplay', fontWeight: 300 }}>About</a>
-        <a href="#events" className="hover:text-orange-400 font-[ClashDisplay] font-light" style={{ fontFamily: 'ClashDisplay', fontWeight: 300 }}>Events</a>
-        <a href="#gallery" className="hover:text-orange-400 font-[ClashDisplay] font-light" style={{ fontFamily: 'ClashDisplay', fontWeight: 300 }}>Gallery</a>
-        <a href="#chapters" className="hover:text-orange-400 font-[ClashDisplay] font-light" style={{ fontFamily: 'ClashDisplay', fontWeight: 300 }}>Chapters</a>
-        <a href="#contacts" className="hover:text-orange-400 font-[ClashDisplay] font-light" style={{ fontFamily: 'ClashDisplay', fontWeight: 300 }}>Contacts</a>
+        <a href="#about" className={navLinkClass}>Home</a>
+        <a href="#about" className={navLinkClass}>About</a>
+        <a href="#about" className={navLinkClass}>Events</a>
+        <a href="#about" className={navLinkClass}>Gallery</a>
+        <a href="#about" className={navLinkClass}>Chapters</a>
+        <a href="#about" className={navLinkClass}>Contacts</a>
+
       </div>
 
       {/* Join Us Button */}
