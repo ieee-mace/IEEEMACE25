@@ -5,7 +5,7 @@ const navLinkClass =
 
 const Navbar = () => {
   return (
-    <nav className="bg-black text-white px-6 py-4 flex items-center justify-between shadow-md">
+    <nav className="bg-black text-white px-6 py-3 flex items-center justify-between shadow-md">
       {/* Logo */}
       <div className="flex items-center space-x-2">
         <img
