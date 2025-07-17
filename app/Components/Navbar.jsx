@@ -27,9 +27,10 @@ const Navbar = () => {
 
       {/* Join Us Button */}
       <div>
-        <button className="border border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white transition rounded-full px-5 py-1 font-semibold font-[ClashDisplay]" style={{ fontFamily: 'ClashDisplay', fontWeight: 600 }}>
+        <button className="border border-orange-500 text-[#F55800] hover:bg-orange-500 hover:text-black transition rounded-full px-5 py-1 font-semibold font-[ClashDisplay]" style={{ fontFamily: 'ClashDisplay', fontWeight: 600 }}>
           Join Us
         </button>
+
       </div>
     </nav>
   );
